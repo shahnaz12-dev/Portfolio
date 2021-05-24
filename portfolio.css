@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  background-color: #ee4c7c;
+  color: #e2e2df;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  overflow-x: hidden;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a {
+  padding-right: 20px;
+  color: #e2e2df;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #5d001e;
+  font-weight: 700;
+}
+
+.brand-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* color: white; */
+  font-size: 28px;
+  /* letter-spacing: 2.5px; */
+}
+
+.brand-name > h3 {
+  letter-spacing: 2.5px;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #ffffff; */
+  /* height: 100vh; */
+}
+
+section {
+  background-color: #e2e2df;
+  height: 100%;
+}
+
+.home-wrapper > .title {
+  width: 50%;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+}
+
+.title > h3 {
+  padding-top: 30px;
+  letter-spacing: 1px;
+  line-height: 55px;
+  color: #35281e;
+}
+
+.title > h3 > span {
+  color: #5d001e;
+}
+
+.photo {
+  width: 50%;
+  padding: 50px 10px 20px 50px;
+}
+
+.photo > img {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.text {
+  color: #35281e;
+  font-size: 25px;
+}
+
+.text > .user-name {
+  color: #5d001e;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "Ubuntu", sans-serif;
+  color: #222530;
+  font-weight: 500;
+  /* padding-top: 120px; */
+}
+.about-wrapper {
+  padding: 25px;
+}
+.name > h1 {
+  text-align: center;
+  /* padding-top: 50px; */
+  /* padding-top: 120px; */
+  font-size: 40px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0px 100px 0px;
+}
+
+.header > h3,
+p {
+  color: #35281e !important;
+  text-align: center;
+}
+
+.about-me-pic {
+  width: 30%;
+  text-align: center;
+}
+
+.about-me-pic > img {
+  width: 250px;
+  height: 250px;
+}
+
+.about-me-detail {
+  width: 70% !important;
+  margin: 0px !important;
+  padding: 0px 10px 20px 20px;
+  font-size: 24px !important;
+}
+
+.skills-set {
+  text-align: left;
+}
+.skills-set > h4 {
+  padding: 40px;
+}
+.skills-details > button {
+  margin: 0px 10px 0px 0px;
+  padding: 8px 8px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #5d001e;
+  color: #e3e2df;
+  border: 1px solid #e3e2df;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+}
+
+.skills-details > button:hover {
+  background: #e3e2df;
+  color: #5d001e;
+  border: 1px solid #5d001e;
+}
+.resume-content {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  color: #35281e !important;
+  letter-spacing: 1px;
+}
+.resume-img > img {
+  /* padding-top: 60px; */
+  width: 60%;
+  height: 100%;
+}
+
+.title-2 > h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  color: #35281e !important;
+}
+
+.contact-wrapper > .social-links {
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 150px; */
+  justify-content: center;
+}
+
+.social-links > img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 100px 100px 50px;
+  /* padding: 0px; */
+}
